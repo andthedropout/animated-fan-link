@@ -1,0 +1,99 @@
+[
+    {
+        "page_label": "Fan Link Options",
+        "options": [
+            {
+                "field_id": "background",
+                "field_label": "Background",
+                "field_mandatory": "yes",
+                "field_options": [
+                    {
+                        "option_label": "Color"
+                    },
+                    {
+                        "option_label": "Gradient"
+                    }
+                    {
+                        "option_label": "Image"
+                    },
+                    {
+                        "option_label": "Animation"
+                    }
+                ],
+                "field_type": "select"
+            },
+            {
+                "field_id": "placeholder",
+                "field_label": "Placeholder",
+                "field_mandatory": "yes",
+                "field_options": [
+                    {
+                        "option_label": "Image"
+                    },
+                    {
+                        "option_label": "Video"
+                    }
+                ],
+                "field_type": "select"
+            },
+            },
+            {
+                "field_id": "placeholder_url",
+                "field_label": "Placeholder URL",
+                "field_value": "Part-Time",
+                "field_mandatory": "yes",
+                "field_placeholder": "URL",
+                "field_type": "text"
+            },
+            {
+                "field_id": "spotify",
+                "field_label": "Spotify URL",
+                "field_mandatory": "no",
+                "field_placeholder": "Spotify URL",
+                "field_type": "text"
+            },
+            {
+                "field_id": "soundcloud",
+                "field_label": "Soundcloud URL",
+                "field_mandatory": "no",
+                "field_placeholder": "Soundcloud URL",
+                "field_type": "text"
+            },
+            {
+                "field_id": "youtube",
+                "field_label": "Youtube URL",
+                "field_mandatory": "no",
+                "field_placeholder": "Youtube URL",
+                "field_type": "text"
+            },
+            {
+                "field_id": "apple_music",
+                "field_label": "Apple Music URL",
+                "field_mandatory": "no",
+                "field_placeholder": "Apple Music URL",
+                "field_type": "text"
+            },
+            {
+                "field_id": "bandcamp",
+                "field_label": "Bandcamp URL",
+                "field_mandatory": "no",
+                "field_placeholder": "Bandcamp URL",
+                "field_type": "text"
+            },
+            {
+                "field_id": "google_id",
+                "field_label": "Google Tracking ID",
+                "field_mandatory": "no",
+                "field_placeholder": "Google Tracking ID",
+                "field_type": "text"
+            },
+            {
+                "field_id": "fb_id",
+                "field_label": "Facebook Pixel ID",
+                "field_mandatory": "no",
+                "field_placeholder": "Facebook Pixel ID",
+                "field_type": "text"
+            },
+        ]
+    }
+]
