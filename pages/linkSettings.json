@@ -1,99 +1,84 @@
 [
     {
         "page_label": "Fan Link Options",
-        "options": [
+        "fields": [
             {
                 "field_id": "background",
                 "field_label": "Background",
                 "field_mandatory": "yes",
                 "field_options": [
                     {
-                        "option_label": "Color"
+                        "option_label": "Background Color"
                     },
                     {
-                        "option_label": "Gradient"
-                    }
-                    {
-                        "option_label": "Image"
+                        "option_label": "Background Gradient"
                     },
                     {
-                        "option_label": "Animation"
+                        "option_label": "Background Image"
+                    },
+                    {
+                        "option_label": "Background Animation"
                     }
                 ],
                 "field_type": "select"
             },
             {
-                "field_id": "placeholder",
-                "field_label": "Placeholder",
+                "field_id": "hero",
+                "field_label": "Hero Img/Video",
                 "field_mandatory": "yes",
                 "field_options": [
                     {
-                        "option_label": "Image"
+                        "option_label": "Album Art"
                     },
                     {
-                        "option_label": "Video"
+                        "option_label": "Music Video"
                     }
                 ],
                 "field_type": "select"
             },
-            },
             {
-                "field_id": "placeholder_url",
-                "field_label": "Placeholder URL",
-                "field_value": "Part-Time",
+                "field_id": "hero_url",
+                "field_label": "Hero Img/Video URL",
+                "field_value": "",
                 "field_mandatory": "yes",
-                "field_placeholder": "URL",
+                "field_placeholder": "Image URL or Youtube Video ID",
                 "field_type": "text"
             },
             {
                 "field_id": "spotify",
                 "field_label": "Spotify URL",
-                "field_mandatory": "no",
+                "field_mandatory": "yes",
                 "field_placeholder": "Spotify URL",
                 "field_type": "text"
             },
             {
                 "field_id": "soundcloud",
                 "field_label": "Soundcloud URL",
-                "field_mandatory": "no",
+                "field_mandatory": "yes",
                 "field_placeholder": "Soundcloud URL",
                 "field_type": "text"
             },
             {
-                "field_id": "youtube",
-                "field_label": "Youtube URL",
-                "field_mandatory": "no",
-                "field_placeholder": "Youtube URL",
-                "field_type": "text"
-            },
-            {
-                "field_id": "apple_music",
+                "field_id": "apple",
                 "field_label": "Apple Music URL",
-                "field_mandatory": "no",
+                "field_mandatory": "yes",
                 "field_placeholder": "Apple Music URL",
                 "field_type": "text"
             },
             {
                 "field_id": "bandcamp",
                 "field_label": "Bandcamp URL",
-                "field_mandatory": "no",
+                "field_mandatory": "yes",
                 "field_placeholder": "Bandcamp URL",
                 "field_type": "text"
             },
             {
-                "field_id": "google_id",
-                "field_label": "Google Tracking ID",
-                "field_mandatory": "no",
-                "field_placeholder": "Google Tracking ID",
+                "field_id": "youtube",
+                "field_label": "Youtube URL",
+                "field_mandatory": "yes",
+                "field_placeholder": "Youtube URL",
                 "field_type": "text"
-            },
-            {
-                "field_id": "fb_id",
-                "field_label": "Facebook Pixel ID",
-                "field_mandatory": "no",
-                "field_placeholder": "Facebook Pixel ID",
-                "field_type": "text"
-            },
+            }
         ]
     }
 ]
