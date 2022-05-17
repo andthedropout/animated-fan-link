@@ -65,7 +65,7 @@ const Form = () => {
         name="background"
         onChange={handleChangeSelect}
       >
-        {/* Add this back in later */}
+        {/* Add this back in later =*/}
         {/* <MenuItem value="sunshine">Sunshine Animation</MenuItem> */}
         <MenuItem value="bubble">(Interactive) Bubble Animation</MenuItem>
         <MenuItem value="gradient">Gradient</MenuItem>
